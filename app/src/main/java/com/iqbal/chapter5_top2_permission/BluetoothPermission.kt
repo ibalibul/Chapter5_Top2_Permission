@@ -1,0 +1,14 @@
+package com.iqbal.chapter5_top2_permission
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class BluetoothPermission : AppCompatActivity() {
+
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_bluetooth_permission)
+    }
+}
